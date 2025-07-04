@@ -1,0 +1,348 @@
+<?php // IntelliVilla Home Automation - PHP version ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliVilla - Home Automation Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="intellivilla_logo.png" alt="IntelliVilla Logo" class="logo-img">
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Open menu" tabindex="0" role="button" aria-controls="navbar-menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Career</a></li>
+        </ul>
+        <button class="contact-btn">Contact Us</button>
+    </nav>
+    <section class="hero-section">
+        <img src="pexels-fotoaibe-1571470.jpg" alt="IntelliVilla Hero" class="hero-img">
+        <div class="hero-text">
+            <h1>Your search for the perfect</h1>
+            <h2>Home Automation Company</h2>
+            <h3>ends here!</h3>
+        </div>
+    </section>
+    <section class="section-solution">
+      <div class="moving-ball left"></div>
+      <div class="moving-ball right"></div>
+      <div class="solution-wrapper">
+        <div class="solution-collage">
+          <img src="image.png" alt="Event Solution" class="solution-img main-img">
+        </div>
+        <div class="solution-content">
+          <h2 class="solution-heading">Your all-in-one solution for every event</h2>
+          <div class="solution-stats">
+            <div class="solution-stat">
+              <div class="solution-stat-number">7M+</div>
+              <div class="solution-stat-label">events managed</div>
+            </div>
+            <div class="solution-stat">
+              <div class="solution-stat-number">315M+</div>
+              <div class="solution-stat-label">registrations processed</div>
+            </div>
+            <div class="solution-stat">
+              <div class="solution-stat-number">1K+</div>
+              <div class="solution-stat-label">5-star ratings on G2</div>
+            </div>
+            <div class="solution-stat">
+              <div class="solution-stat-number">24/7</div>
+              <div class="solution-stat-label">customer support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-features section-two">
+        <div class="features-container">
+            <div class="features-left" id="features-content">
+                <div class="features-eyebrow">EXPLORE FUNCTIONALITY</div>
+                <h2 class="features-heading">Main Features</h2>
+                <ul class="features-list">
+                    <li>
+                        <span class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="12" width="18" height="8" rx="3" fill="#a78bfa"/><rect x="24" y="15" width="2" height="2" rx="1" fill="#a78bfa"/></svg>
+                        </span>
+                        <div class="feature-text">
+                            <span class="feature-title">Extended Battery Life</span>
+                            <span class="feature-desc">Erat nam at lectus urna.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="14" rx="5" ry="7" fill="#a78bfa"/><rect x="14" y="21" width="4" height="6" rx="2" fill="#a78bfa"/></svg>
+                        </span>
+                        <div class="feature-text">
+                            <span class="feature-title">Microphone, Call, Track, Volume</span>
+                            <span class="feature-desc">Tristique senectus et netus</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16C12 10 20 10 24 16" stroke="#a78bfa" stroke-width="3" fill="none"/><circle cx="16" cy="16" r="2.5" fill="#a78bfa"/></svg>
+                        </span>
+                        <div class="feature-text">
+                            <span class="feature-title">Seamless Connectivity</span>
+                            <span class="feature-desc">Urna cursus eget nunc</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16V24C8 25.1 8.9 26 10 26H22C23.1 26 24 25.1 24 24V16" stroke="#a78bfa" stroke-width="2"/><ellipse cx="16" cy="13" rx="6" ry="7" fill="#a78bfa"/></svg>
+                        </span>
+                        <div class="feature-text">
+                            <span class="feature-title">Secure: Noise cancellation</span>
+                            <span class="feature-desc">Interdum consectetur libero</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M10 18C10 22 16 28 16 28C16 28 22 22 22 18C22 14.6863 19.3137 12 16 12C12.6863 12 10 14.6863 10 18Z" fill="#a78bfa"/><circle cx="16" cy="24" r="2" fill="#fff"/></svg>
+                        </span>
+                        <div class="feature-text">
+                            <span class="feature-title">IPX4: Sweat and Splash Resistant</span>
+                            <span class="feature-desc">Pellentesque eu tincidunt tortor</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="features-right">
+                <div class="features-image-col">
+                    <img src="assets/revo.png" alt="Feature image" class="revo-img" id="features-img" />
+                    <div class="section-two-nav">
+                        <button class="section-two-btn" id="features-prev" aria-label="Previous">&#8592; Prev</button>
+                        <button class="section-two-btn" id="features-next" aria-label="Next">Next &#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore Functionality Slides Data (hidden, for JS) -->
+    <template id="features-slides">
+        <div data-imgs='["assets/revo.png"]'>
+            <div class="features-eyebrow">EXPLORE FUNCTIONALITY</div>
+            <h2 class="features-heading">Revo: Main Features</h2>
+            <ul class="features-list">
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="12" width="18" height="8" rx="3" fill="#a78bfa"/><rect x="24" y="15" width="2" height="2" rx="1" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Extended Battery Life</span>
+                        <span class="feature-desc">Erat nam at lectus urna.</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="14" rx="5" ry="7" fill="#a78bfa"/><rect x="14" y="21" width="4" height="6" rx="2" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Microphone, Call, Track, Volume</span>
+                        <span class="feature-desc">Tristique senectus et netus</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16C12 10 20 10 24 16" stroke="#a78bfa" stroke-width="3" fill="none"/><circle cx="16" cy="16" r="2.5" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Seamless Connectivity</span>
+                        <span class="feature-desc">Urna cursus eget nunc</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16V24C8 25.1 8.9 26 10 26H22C23.1 26 24 25.1 24 24V16" stroke="#a78bfa" stroke-width="2"/><ellipse cx="16" cy="13" rx="6" ry="7" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Secure: Noise cancellation</span>
+                        <span class="feature-desc">Interdum consectetur libero</span>
+                    </div>
+                </li> 
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M10 18C10 22 16 28 16 28C16 28 22 22 22 18C22 14.6863 19.3137 12 16 12C12.6863 12 10 14.6863 10 18Z" fill="#a78bfa"/><circle cx="16" cy="24" r="2" fill="#fff"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">IPX4: Sweat and Splash Resistant</span>
+                        <span class="feature-desc">Pellentesque eu tincidunt tortor</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-imgs='["assets/pixel.png"]'>
+            <div class="features-eyebrow">EXPLORE FUNCTIONALITY</div>
+            <h2 class="features-heading">Pixel Edition: Crystal Display</h2>
+            <ul class="features-list">
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="12" width="18" height="8" rx="3" fill="#a78bfa"/><rect x="24" y="15" width="2" height="2" rx="1" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Ultra HD Display</span>
+                        <span class="feature-desc">Vivid colors, sharp details</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="14" rx="5" ry="7" fill="#a78bfa"/><rect x="14" y="21" width="4" height="6" rx="2" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Always-On Mode</span>
+                        <span class="feature-desc">See info at a glance</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16C12 10 20 10 24 16" stroke="#a78bfa" stroke-width="3" fill="none"/><circle cx="16" cy="16" r="2.5" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Ambient Light Sensor</span>
+                        <span class="feature-desc">Auto-brightness adjustment</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16V24C8 25.1 8.9 26 10 26H22C23.1 26 24 25.1 24 24V16" stroke="#a78bfa" stroke-width="2"/><ellipse cx="16" cy="13" rx="6" ry="7" fill="#a78bfa"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Scratch Resistant</span>
+                        <span class="feature-desc">Durable for daily use</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M10 18C10 22 16 28 16 28C16 28 22 22 22 18C22 14.6863 19.3137 12 16 12C12.6863 12 10 14.6863 10 18Z" fill="#a78bfa"/><circle cx="16" cy="24" r="2" fill="#fff"/></svg>
+                    </span>
+                    <div class="feature-text">
+                        <span class="feature-title">Water Resistant</span>
+                        <span class="feature-desc">IP68 certified</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </template>
+    <section class="why-section">
+      <div class="why-container">
+        <div class="why-image-col">
+          <div class="why-img-box">
+            <img src="core-values.jpg" alt="Why Choose Us" class="why-img">
+          </div>
+        </div>
+        <div class="why-content-col">
+          <div class="why-heading">Why <span>Choose Us</span> ?</div>
+          <div class="why-quote">Engineered for the Future. Built for You.</div>
+          <div class="why-desc">Powered by the latest in AI, Zigbee, and hybrid tech, IntelliVilla delivers unmatched performance and control. From voice-activated scenes to centralized smart panels, every solution is crafted for reliability, speed, and scalability — designed to evolve with your life.</div>
+          <div class="why-desc">Seamlessly integrating with your lifestyle, IntelliVilla turns everyday living into an extraordinary experience.</div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials-section">
+      <div class="testimonials-container">
+        <div class="testimonials-decor">
+          <svg width="80" height="40" viewBox="0 0 80 40" fill="none"><path d="M5 35C20 10 60 10 75 35" stroke="#7b4ff6" stroke-width="3" fill="none"/><polygon points="75,35 70,32 72,38" fill="#ffc107"/></svg>
+        </div>
+        <div class="testimonials-left">
+          <div class="testimonials-heading">What Our<br>Customers Says</div>
+          <div class="testimonials-desc">Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always get adieus nature day course for common.</div>
+          <button class="testimonials-btn">View More</button>
+        </div>
+        <div class="testimonials-right">
+          <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mehwish" class="testimonial-avatar">
+            <div>
+              <div class="testimonial-name">Mehwish</div>
+              <div class="testimonial-quote">Compliment interested discretion estimating on stimulated apartments oh.</div>
+            </div>
+          </div>
+          <div class="testimonial-card active">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Elizabeth Jeff" class="testimonial-avatar">
+            <div>
+              <div class="testimonial-name">Elizabeth Jeff</div>
+              <div class="testimonial-quote">Dear so sing when in find road of call. As distrusts behaviour abilities defective is.</div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Emily Thomas" class="testimonial-avatar">
+            <div>
+              <div class="testimonial-name">Emily Thomas</div>
+              <div class="testimonial-quote">Never at water me might. On formed merits hunted unable merely by mr whence or.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-questions">
+      <div class="questions-container">
+        <h2 class="questions-heading">Your questions - our answers</h2>
+        <p class="questions-subheading">We will answer all your questions about the intellivilla brand and our products.</p>
+        <button class="questions-btn">Learn More</button>
+      </div>
+    </section>
+    <footer class="footer-dark">
+      <div class="footer-main">
+        <div class="footer-col logo-col">
+          <div class="footer-logo">IntelliVilla</div>
+        </div>
+        <div class="footer-col links-col">
+          <div class="footer-col-title">INTELLIVILLA</div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">CONTACT</div>
+          <ul>
+            <li><i class="fas fa-envelope"></i> Email</li>
+            <li><i class="fab fa-whatsapp"></i> WhatsApp</li>
+            <li><i class="fas fa-phone"></i> Call</li>
+            <li><i class="fas fa-map-marker-alt"></i> Address</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">PRODUCTS</div>
+          <ul>
+            <li>Revo</li>
+            <li>Pixel</li>
+          </ul>
+        </div>
+        <div class="footer-col app-col">
+          <div class="footer-col-title">DOWNLOAD APP</div>
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="footer-app-badge"></a>
+          <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="footer-app-badge"></a>
+        </div>
+      </div>
+      <div class="footer-bar">
+        <div class="footer-bar-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Disclaimer</a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        ©2025    IntelliVilla. All Rights Reserved.
+      </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html> 
